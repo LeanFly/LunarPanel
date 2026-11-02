@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "name": "Lunar Panel",
+      "items": [
+        {
+          "name": "Start panel",
+          "action": "sh ./panel.sh start",
+          "exitmenu": true
+        },
+        {
+          "name": "Stop panel",
+          "action": "sh ./panel.sh stop",
+          "exitmenu": false
+        },
+        {
+          "name": "Pages: automatic",
+          "action": "sh ./mode.sh auto",
+          "exitmenu": true
+        },
+        {
+          "name": "Page: daily",
+          "action": "sh ./mode.sh daily",
+          "exitmenu": true
+        },
+        {
+          "name": "Page: news",
+          "action": "sh ./mode.sh news",
+          "exitmenu": true
+        },
+        {
+          "name": "Page: hexagram",
+          "action": "sh ./mode.sh hexagram",
+          "exitmenu": true
+        },
+        {
+          "name": "Page: device",
+          "action": "sh ./mode.sh device",
+          "exitmenu": true
+        },
+        {
+          "name": "Start charge limit 40-80",
+          "action": "sh ./charge-control.sh start",
+          "exitmenu": false
+        },
+        {
+          "name": "Stop charge limit and enable charging",
+          "action": "sh ./charge-control.sh stop",
+          "exitmenu": false
+        },
+        {
+          "name": "USB on right",
+          "action": "sh ./orientation.sh right",
+          "exitmenu": true
+        },
+        {
+          "name": "USB on left",
+          "action": "sh ./orientation.sh left",
+          "exitmenu": true
+        },
+        {
+          "name": "Run diagnostics",
+          "action": "sh ./diagnostics.sh",
+          "exitmenu": false
+        },
+        {
+          "name": "Check network",
+          "action": "sh ./network-check.sh",
+          "exitmenu": false
+        },
+        {
+          "name": "Check power",
+          "action": "sh ./power-check.sh",
+          "exitmenu": false
+        },
+        {
+          "name": "Check charge control",
+          "action": "sh ./charge-check.sh",
+          "exitmenu": false
+        },
+        {
+          "name": "Check remote access",
+          "action": "sh ./remote-check.sh",
+          "exitmenu": false
+        },
+        {
+          "name": "Prepare SSH host key",
+          "action": "sh ./prepare-ssh.sh",
+          "exitmenu": false
+        }
+      ]
+    }
+  ]
+}

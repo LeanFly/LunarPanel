@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+*.pyc
+*.bak
+Kindle_src_*.tar.gz
+kindle-*.png
+!kindle-quote-daily.png
+!kindle-hexagram-live.png
+kindle-*.jpg
